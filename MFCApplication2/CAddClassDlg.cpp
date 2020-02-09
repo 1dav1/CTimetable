@@ -115,6 +115,7 @@ void CAddClassDlg::OnBnClickedOk()
 		file.WriteString(numStr);
 		file.WriteString(letStr);
 		file.WriteString(_T(";"));
+		int a = 0;
 		file.Flush();
 	}
 	file.Close();
